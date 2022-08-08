@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    margin: 1rem;
+    background-image: rgba(100, 100, 100, 0.1), url(nature.jpg);
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_element {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.about_element_paragraph1,
+.about_element_paragraph2,
+.about_element_paragraph3 {
+    width: 30%;
+
+}
+
+.about_element,
+.about_image,
+.about_h3,
+.about_h3_paragraph {
+    margin-top: 1rem;
+}
+
+.about_image {
+    height: auto;
+
+}
+
+.about_h3_link {
+    text-decoration: none;
+}
